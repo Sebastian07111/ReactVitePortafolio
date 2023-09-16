@@ -1,0 +1,20 @@
+.mainParts {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center ;
+    background: linear-gradient(90deg,  #111,#333,#777) ;
+    & .ProjectBox {
+        height: 90%;
+        overflow-x: scroll;
+        width: 90%;
+        border-radius: 15px ;
+        background-color: #333;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+}
